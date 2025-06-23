@@ -30,3 +30,22 @@
 *.exe
 *.out
 *.app
+# Ignore Visual Studio files
+.vs/
+*.db
+*.ipch
+*.suo
+*.user
+*.VC.*
+*.log
+*.tlog
+*.obj
+*.pdb
+*.idb
+*.cache
+*.sdf
+*.opensdf
+*.exe
+*.dll
+*.lib
+*.bak
