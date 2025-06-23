@@ -15,7 +15,7 @@ int main()
 	//inserting vector elements into set
 	s.insert(v.begin(), v.end());
 	//inserting list elements into set
-	s.insert({40, 45, 50, 55, 60, 65}); //40 is already present - it is a duplicate value, so only once it will be printed
+	s.insert({40, 45, 50,50, 55, 60, 65}); //40 is already present - it is a duplicate value, so only once it will be printed
 	//printing all the elements
 	cout << "Set elements: ";
 	for (int x : s)
